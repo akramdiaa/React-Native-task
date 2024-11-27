@@ -34,8 +34,3 @@ To set up the Notification Center project on your local machine, follow these st
    
     Use the Expo Go app on your mobile device to scan the QR code displayed in the terminal or browser.
 
-
-
-## License
-
-This project is licensed under the MIT License.
