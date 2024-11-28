@@ -15,6 +15,12 @@ const CARD_WIDTH = SCREEN_WIDTH * 0.88;
 const CARD_HEIGHT = CARD_WIDTH * 0.62;
 
 //memoized the new card component for better preformance
+// simple explanation of memo higher-order component
+//which  is used to create an optimized version of a component that is re-rendered only when props change
+// and if asking what is the difference between memo and useMemo and useCallback i will also provide  simple explanation
+//we already discussed memo let us move to useMemo and useCallback
+//useMemo: is a hook which is used to cache the result of an expensive function inside a component
+//useCallback: is a hook which is used to cache the function itself inside a component
 
 const NewsCard = memo(({ item }) => (
   <View style={styles.card}>

@@ -32,7 +32,7 @@ export default function AppNavigator() {
         headerBackVisible: false,
       });
     // there was a problem with the desired style from figma that the name
-    //of the screen doesnt appear and i think its because the initialization of the component  
+    //of the screen doesnt appear and i think its because the initialization of the component  related to Navigator 
     //so the name of the screen doesnt get render so i added a small delay 
 
       useEffect(() => {
